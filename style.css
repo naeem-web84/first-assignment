@@ -632,7 +632,6 @@ nav button {
     width: 130px;
     height: 40px;
     font-weight: 600;
-    font-variant-east-asian: 17px;
     margin-top: 0px;
     background-color: rgba(0, 106, 80, 1);
     color: white;
@@ -646,7 +645,6 @@ nav button {
     color: rgb(26, 26, 26);
     font-weight: bold;
     transition: 0.2s ease-in-out;
-
 }
 
 
@@ -693,11 +691,11 @@ nav button {
     border-radius: 7px;
 }
 
-.form span:hover{
+.form span:hover {
     background-color: darkturquoise;
     color: #0E0E0E;
     font-weight: bold;
-     transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
 }
 
 /* Foot */
