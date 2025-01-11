@@ -126,7 +126,7 @@ nav button {
 
 .pillar-item-para {
     font-size: 15px;
-    color: #0E0E0E;
+    color: rgba(14, 14, 14, 0.7);
     margin-top: 0px;
 }
 
@@ -145,7 +145,7 @@ nav button {
 .vision-para {
     font-weight: 400px;
     font-size: 15px;
-    color: #0E0E0E;
+    color: rgba(14, 14, 14, 0.7);
     margin-top: 0px;
     margin-bottom: 30px;
 }
@@ -229,7 +229,7 @@ nav button {
     font-size: 15px;
     margin-top: 0px;
     margin-bottom: 40px;
-    background-image: ;
+    color: rgba(14, 14, 14, 0.7);
 }
 
 /* MAIN ADVISORY */
@@ -249,7 +249,7 @@ nav button {
 
 .younus-sir-description {
     font-size: 15px;
-    color: #0E0E0E;
+    color: rgba(14, 14, 14, 0.7);
     padding-left: 1px;
     padding-top: 26px;
 }
@@ -394,6 +394,7 @@ nav button {
 
 .recent-content {
     display: flex;
+    color: rgba(14, 14, 14, 0.7);
     flex-direction: column;
     max-width: auto;
     align-items: flex-start;
@@ -453,6 +454,7 @@ nav button {
 
 .recent-content-2 {
     display: flex;
+    color: rgba(14, 14, 14, 0.7);
     flex-direction: column;
     max-width: auto;
     align-items: flex-start;
@@ -498,9 +500,6 @@ nav button {
 }
 
 
-
-
-
 .satelite-recent-picture-2 .img-999 {
     width: 390px;
     height: 290px;
@@ -525,6 +524,8 @@ nav button {
     color: #0E0E0E;
     margin-top: 0px;
     margin-bottom: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .donate .donate-amount{
@@ -575,3 +576,49 @@ nav button {
     border-radius: 7px;
 }
 
+
+/* SUBSCRIBE NEWS */
+.subscribe-news{
+    background-color: rgba(198, 228, 214, 1);
+    text-align: center;
+    padding: 95px 75px;
+    margin-top: 75px;
+    border-radius: 20px;
+}
+
+.subscribe-news .subs-heading{
+    font-weight: bold;
+    font-size: 38px;
+    color: #0E0E0E;
+    margin-bottom: 12px;
+}
+
+.subscribe-news .subs-des{
+    font-size: 14px;
+    color: rgba(14, 14, 14, 0.7);
+    padding: 0px 210px;
+    margin-bottom: 20px;
+}
+
+.form{
+    display: flex;
+    margin: 0px 130px;
+}
+
+.form .subs-form-width{
+    width: 560px;
+    padding: 10px 10px;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+.form span{
+    width: 560px;
+    padding: 7px 7px;
+    border: 1px solid rgba(0, 106, 80, 1);
+    background-color: rgba(0, 106, 80, 1);
+    border-radius: 7px;
+}
+
+
+ 
