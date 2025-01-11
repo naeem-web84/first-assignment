@@ -703,6 +703,12 @@ nav button {
     cursor: pointer;
 }
 
+.subscribe-news p{
+    font-size: 15px;
+    color: rgba(14, 14, 14, 0.7);
+    margin-top: 22px;
+}
+
 /* Foot */
 .foot {
     background-color: white;
