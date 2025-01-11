@@ -6,11 +6,11 @@
 
 /* BODY DESIGN */
 body {
-   
+
     background-color: rgba(241, 241, 243, 1);
 }
 
-.shared-margin-width{
+.shared-margin-width {
     max-width: 1100px;
     margin: 0 auto;
 }
@@ -39,6 +39,13 @@ nav button {
     margin-right: 5px;
     border: 1px solid #006A50;
     border-radius: 5px;
+}
+
+.nav-hover:hover {
+    background-color: rgba(0, 213, 255, 0.498);
+    cursor: pointer;
+    color: black;
+    transition: 0.2s ease-in-out;
 }
 
 /* BANNER SECTION */
@@ -81,6 +88,14 @@ nav button {
     border: 1px solid #006A50;
     border-radius: 4px;
     margin-top: 0;
+}
+
+.btn-banner:hover {
+    background-color: red;
+    cursor: pointer;
+    color: rgb(7, 7, 7);
+    font-size: 18px;
+    transition: 0.2s ease-in-out;
 }
 
 .banner-image {
@@ -178,6 +193,14 @@ nav button {
     border-radius: 8px;
 }
 
+.vison-btn-1:hover {
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    background-color: rgb(67, 195, 199);
+    font-weight: bold;
+    transition: 0.2s ease-in-out;
+}
+
 /* VISION ITEM 2 */
 .vision-item-2 {
     padding: 30px 30px;
@@ -193,6 +216,14 @@ nav button {
     color: white;
     border: none;
     border-radius: 8px;
+}
+
+.vison-btn-2:hover {
+    cursor: pointer;
+    color: black;
+    background-color: rgba(214, 106, 198, 0.959);
+    transition: 0.2s ease-in-out;
+    font-weight: bold;
 }
 
 
@@ -211,6 +242,14 @@ nav button {
     color: white;
     border: none;
     border-radius: 8px;
+}
+
+.vison-btn-3:hover {
+    cursor: pointer;
+    color: black;
+    background-color: rgba(88, 218, 142, 0.959);
+    font-weight: bold;
+    transition: 0.2s ease-in-out;
 }
 
 
@@ -443,6 +482,14 @@ nav button {
     border-radius: 7px;
 }
 
+
+.recent-content .st-btn:hover {
+    background-color: rgb(26, 225, 96);
+    color: rgb(105, 35, 217);
+    transition: 0.2s ease-in-out;
+    font-weight: bold;
+}
+
 /* NEWS 2 - AT FIRST I DO .NEWS-1 AND THEN USE NEWS-1'S CODE BECAUSE IT IS SAME SO I JUST FLIP TWO DIVS ONE SIDE TO ANOTHER. AND JUST CHANGED THEIR CLASS NAME*/
 
 .news-2 {
@@ -503,6 +550,13 @@ nav button {
     border-radius: 7px;
 }
 
+.recent-content-2 .st-btn-2:hover {
+    color: rgb(105, 35, 217);
+    background-color: rgb(27, 224, 96);
+    transition: 0.2s ease-in-out;
+    font-weight: bold;
+}
+
 
 .satelite-recent-picture-2 .img-999 {
     width: 390px;
@@ -511,19 +565,19 @@ nav button {
 }
 
 /* DONATE SEC DESIGN */
-.donate{
+.donate {
     text-align: center;
     margin-top: 75px;
 }
 
-.donate .donate-heading{
+.donate .donate-heading {
     font-weight: bold;
     font-size: 37px;
     color: #0E0E0E;
     margin-bottom: 20px;
 }
 
-.donate .donate-description{
+.donate .donate-description {
     font-size: 14px;
     color: #0E0E0E;
     margin-top: 0px;
@@ -532,11 +586,11 @@ nav button {
     margin-right: 100px;
 }
 
-.donate .donate-amount{
+.donate .donate-amount {
     gap: 30px;
 }
 
-.donate .donate-button-all{
+.donate .donate-button-all {
     width: 220px;
     height: 100px;
     border: none;
@@ -548,11 +602,17 @@ nav button {
     margin-bottom: 30px;
 }
 
-.donate .btn-92{
+.donate .donate-button-all:hover {
+    background-color: rgb(33, 77, 77);
+    transition: 0.3s ease-in-out;
+    color: aliceblue;
+}
+
+.donate .btn-92 {
     background-color: rgba(198, 228, 214, 1);
 }
 
-.donate .inpt-1oo{
+.donate .inpt-1oo {
     width: 80%;
     height: 5px;
     padding: 20px 10px;
@@ -564,11 +624,11 @@ nav button {
     margin-bottom: 30px;
 }
 
-.div-33{
+.div-33 {
     margin-top: 0px;
 }
 
-.st-btn-11{
+.st-btn-11 {
     width: 130px;
     height: 40px;
     font-weight: 600;
@@ -580,9 +640,18 @@ nav button {
     border-radius: 7px;
 }
 
+.st-btn-11:hover {
+    background-color: rgb(211, 51, 51);
+    transition: 0.2s ease-in-out;
+    color: rgb(26, 26, 26);
+    font-weight: bold;
+    transition: 0.2s ease-in-out;
+
+}
+
 
 /* SUBSCRIBE NEWS */
-.subscribe-news{
+.subscribe-news {
     background-color: rgba(198, 228, 214, 1);
     text-align: center;
     padding: 95px 75px;
@@ -590,42 +659,49 @@ nav button {
     border-radius: 20px;
 }
 
-.subscribe-news .subs-heading{
+.subscribe-news .subs-heading {
     font-weight: bold;
     font-size: 38px;
     color: #0E0E0E;
     margin-bottom: 12px;
 }
 
-.subscribe-news .subs-des{
+.subscribe-news .subs-des {
     font-size: 14px;
     color: rgba(14, 14, 14, 0.7);
     padding: 0px 210px;
     margin-bottom: 20px;
 }
 
-.form{
+.form {
     display: flex;
     margin: 0px 130px;
 }
 
-.form .subs-form-width{
+.form .subs-form-width {
     width: 560px;
     padding: 10px 10px;
     border: 1px solid white;
     border-radius: 4px;
 }
 
-.form span{
+.form span {
     width: 560px;
     padding: 7px 7px;
     border: 1px solid rgba(0, 106, 80, 1);
-    background-color: rgba(0, 106, 80, 1);
+    background-color: rgb(19, 223, 172);
     border-radius: 7px;
 }
 
+.form span:hover{
+    background-color: darkturquoise;
+    color: #0E0E0E;
+    font-weight: bold;
+     transition: 0.2s ease-in-out;
+}
+
 /* Foot */
-.foot{
+.foot {
     /* width: 100%; */
     background-color: white;
     text-align: center;
@@ -633,14 +709,11 @@ nav button {
     margin-top: 75px;
 }
 
-.foot hr{
+.foot hr {
     width: 800px;
     color: rgba(14, 14, 14, 0.1);
 }
 
-.icon{
+.icon {
     margin-top: 20px;
 }
-
-
- 
