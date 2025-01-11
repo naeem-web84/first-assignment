@@ -8,6 +8,7 @@
 body {
     max-width: 1100px;
     margin: 0 auto;
+    background-color: rgba(241, 241, 243, 1);
 }
 
 /* NAV SECTION DESIGN */
@@ -30,7 +31,8 @@ nav button {
     background-color: white;
     padding: 0 10px;
     height: 25px;
-    margin-top: 30px;
+    margin-top: 33px;
+    margin-right: 5px;
     border: 1px solid #006A50;
     border-radius: 5px;
 }
@@ -504,3 +506,72 @@ nav button {
     height: 290px;
     border-radius: 20px;
 }
+
+/* DONATE SEC DESIGN */
+.donate{
+    text-align: center;
+    margin-top: 75px;
+}
+
+.donate .donate-heading{
+    font-weight: bold;
+    font-size: 37px;
+    color: #0E0E0E;
+    margin-bottom: 20px;
+}
+
+.donate .donate-description{
+    font-size: 14px;
+    color: #0E0E0E;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.donate .donate-amount{
+    gap: 30px;
+}
+
+.donate .donate-button-all{
+    width: 220px;
+    height: 100px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0px 0px 1px 0px;
+    font-weight: bold;
+    font-size: 40px;
+    margin: 0px 5px;
+    margin-bottom: 30px;
+}
+
+.donate .btn-92{
+    background-color: rgba(198, 228, 214, 1);
+}
+
+.donate .inpt-1oo{
+    width: 80%;
+    height: 5px;
+    padding: 20px 10px;
+    margin: 0px auto;
+    text-align: center;
+    font-size: 18px;
+    border: 1px solid white;
+    box-shadow: 0px 1px 1px 0px;
+    margin-bottom: 30px;
+}
+
+.div-33{
+    margin-top: 0px;
+}
+
+.st-btn-11{
+    width: 130px;
+    height: 40px;
+    font-weight: 600;
+    font-variant-east-asian: 17px;
+    margin-top: 0px;
+    background-color: rgba(0, 106, 80, 1);
+    color: white;
+    border: none;
+    border-radius: 7px;
+}
+
