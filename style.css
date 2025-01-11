@@ -488,6 +488,7 @@ nav button {
     color: rgb(105, 35, 217);
     transition: 0.2s ease-in-out;
     font-weight: bold;
+    cursor: pointer;
 }
 
 /* NEWS 2 - AT FIRST I DO .NEWS-1 AND THEN USE NEWS-1'S CODE BECAUSE IT IS SAME SO I JUST FLIP TWO DIVS ONE SIDE TO ANOTHER. AND JUST CHANGED THEIR CLASS NAME*/
@@ -555,6 +556,7 @@ nav button {
     background-color: rgb(27, 224, 96);
     transition: 0.2s ease-in-out;
     font-weight: bold;
+    cursor: pointer;
 }
 
 
@@ -606,6 +608,7 @@ nav button {
     background-color: rgb(33, 77, 77);
     transition: 0.3s ease-in-out;
     color: aliceblue;
+    cursor: pointer;
 }
 
 .donate .btn-92 {
@@ -645,6 +648,7 @@ nav button {
     color: rgb(26, 26, 26);
     font-weight: bold;
     transition: 0.2s ease-in-out;
+    cursor: pointer;
 }
 
 
@@ -696,11 +700,11 @@ nav button {
     color: #0E0E0E;
     font-weight: bold;
     transition: 0.2s ease-in-out;
+    cursor: pointer;
 }
 
 /* Foot */
 .foot {
-    /* width: 100%; */
     background-color: white;
     text-align: center;
     padding: 20px 20px;
