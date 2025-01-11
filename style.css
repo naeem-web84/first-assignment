@@ -357,25 +357,26 @@ nav button {
 }
 
 /* RECENT NEWS DESIGN */
-.recent-news{
+.recent-news {
     margin-top: 75px;
 }
 
-.news-heading{
+.news-heading {
     font-weight: bold;
     font-size: 38px;
     color: #0E0E0E;
     margin-bottom: 10px;
 }
-.re-news-para{
+
+.re-news-para {
     font-size: 15px;
     color: rgba(14, 14, 14, 0.7);
     margin-top: 0px;
 }
 
-/* NEWS 1, 2 */
+/* NEWS 1*/
 
-.news-1{
+.news-1 {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -385,19 +386,19 @@ nav button {
     box-shadow: 0px 0px 1px 0px;
 }
 
-.satelite-recent-picture img{
+.satelite-recent-picture img {
     border-radius: 20px;
 }
 
-.recent-content{
+.recent-content {
     display: flex;
     flex-direction: column;
     max-width: auto;
-    align-items:flex-start;
+    align-items: flex-start;
     margin-bottom: 5px;
 }
 
-.recent-content .news-main-heading-2{
+.recent-content .news-main-heading-2 {
     font-weight: bold;
     font-size: 30px;
     color: rgba(14, 14, 14, 0.8);
@@ -405,25 +406,25 @@ nav button {
     margin-bottom: 0px;
 }
 
-.recent-content img{
+.recent-content img {
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
-.recent-content .news-time{
+.recent-content .news-time {
     font-size: 15px;
     margin-top: 0px;
     margin-bottom: 20px;
 }
 
-.recent-content .about-satelite{
+.recent-content .about-satelite {
     font-size: 15px;
     line-height: 1.5;
     margin-top: 0px;
     margin-bottom: 30px;
 }
 
- .recent-content .st-btn{
+.recent-content .st-btn {
     width: 130px;
     height: 40px;
     font-weight: 600;
@@ -433,4 +434,73 @@ nav button {
     color: white;
     border: none;
     border-radius: 7px;
- }
+}
+
+/* NEWS 2 - AT FIRST I DO .NEWS-1 AND THEN USE NEWS-1'S CODE BECAUSE IT IS SAME SO I JUST FLIP TWO DIVS ONE SIDE TO ANOTHER. AND JUST CHANGED THEIR CLASS NAME*/
+
+.news-2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 45px 45px;
+    border-radius: 20px;
+    gap: 30px;
+    box-shadow: 0px 0px 1px 0px;
+    margin-top: 24px;
+}
+
+.recent-content-2 {
+    display: flex;
+    flex-direction: column;
+    max-width: auto;
+    align-items: flex-start;
+    margin-bottom: 5px;
+}
+
+.recent-content-2 .news-main-heading-22 {
+    font-weight: bold;
+    font-size: 30px;
+    color: rgba(14, 14, 14, 0.8);
+    margin-top: 2px;
+    margin-bottom: 0px;
+}
+
+.recent-content-2 img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.recent-content-2 .news-time-2 {
+    font-size: 15px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.recent-content-2 .about-satelite-2 {
+    font-size: 15px;
+    line-height: 1.5;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.recent-content-2 .st-btn-2 {
+    width: 130px;
+    height: 40px;
+    font-weight: 600;
+    font-variant-east-asian: 17px;
+    margin-top: 0px;
+    background-color: rgba(0, 106, 80, 1);
+    color: white;
+    border: none;
+    border-radius: 7px;
+}
+
+
+
+
+
+.satelite-recent-picture-2 .img-999 {
+    width: 390px;
+    height: 290px;
+    border-radius: 20px;
+}
