@@ -719,3 +719,7 @@ nav button {
 .icon {
     margin-top: 20px;
 }
+
+.icon a{
+    text-decoration: none;
+}
