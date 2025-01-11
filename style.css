@@ -6,9 +6,13 @@
 
 /* BODY DESIGN */
 body {
+   
+    background-color: rgba(241, 241, 243, 1);
+}
+
+.shared-margin-width{
     max-width: 1100px;
     margin: 0 auto;
-    background-color: rgba(241, 241, 243, 1);
 }
 
 /* NAV SECTION DESIGN */
@@ -618,6 +622,24 @@ nav button {
     border: 1px solid rgba(0, 106, 80, 1);
     background-color: rgba(0, 106, 80, 1);
     border-radius: 7px;
+}
+
+/* Foot */
+.foot{
+    /* width: 100%; */
+    background-color: white;
+    text-align: center;
+    padding: 20px 20px;
+    margin-top: 75px;
+}
+
+.foot hr{
+    width: 800px;
+    color: rgba(14, 14, 14, 0.1);
+}
+
+.icon{
+    margin-top: 20px;
 }
 
 
